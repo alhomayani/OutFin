@@ -45,3 +45,48 @@ REQUIRED IMPORTS: - os
                   - pandas	
 PATH OF REQUIRED DATA: OutFin/Calibration
 ===============================================================================
+NAME: Fingerprint_Interpolation.py
+PURPOSE: Provides a demonstration of how OutFin can be used for fingerprint 
+         interpolation. 
+REQUIRED IMPORTS: - os
+                  - pandas
+                  - numpy
+                  - scipy
+                  - matplotlib	
+PATH OF REQUIRED DATA: OutFin/Measurements and OutFin/Coordinates
+===============================================================================
+NAME: Feature_Extraction.py
+PURPOSE: Provides a demonstration of how OutFin can be used for feature 
+         extraction. 
+REQUIRED IMPORTS: - os
+                  - pandas
+                  - numpy
+                  - keras
+                  - matplotlib
+                  - sklearn
+                  - random	
+PATH OF REQUIRED DATA: OutFin/Measurements
+===============================================================================
+NAME: Performance_Evaluation.py
+PURPOSE: Provides a demonstration of how OutFin can be used for performance 
+         evaluation. 
+REQUIRED IMPORTS: - os
+                  - pandas
+                  - numpy
+                  - math
+                  - sklearn
+PATH OF REQUIRED DATA: OutFin/Measurements and OutFin/Coordinates
+===============================================================================
+NAME: Signal_Denoising.py
+PURPOSE: Provides a demonstration of how OutFin can be used for signal 
+         denoising. 
+REQUIRED IMPORTS: - os
+                  - pandas
+                  - numpy
+                  - math
+                  - sklearn
+                  - matplotlib
+                  - statistics
+                  - keras
+PATH OF REQUIRED DATA: OutFin/Measurements and OutFin/Coordinates
+===============================================================================
